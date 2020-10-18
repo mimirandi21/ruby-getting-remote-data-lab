@@ -17,7 +17,7 @@ class GetRequester
     end
 
     def parse_json
-        stats = []
+       
         information = JSON.parse(self.get_response_body)
         
         information
